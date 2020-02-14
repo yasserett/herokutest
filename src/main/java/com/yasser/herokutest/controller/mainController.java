@@ -18,4 +18,9 @@ public class mainController {
     public List<Book> getAll(){
         return service.getAll();
     }
+
+    @GetMapping(value = "/")
+    public String index(){
+        return "working";
+    }
 }
