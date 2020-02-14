@@ -19,7 +19,7 @@ public class mainController {
         return service.getAll();
     }
 
-    @GetMapping(value = "/")
+    @GetMapping(value = "/test")
     public String index(){
         return "working";
     }
